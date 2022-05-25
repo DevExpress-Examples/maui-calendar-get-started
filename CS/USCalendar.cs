@@ -62,12 +62,6 @@ namespace CalendarExample {
 
         static void AddFederalHolidayTo(List<SpecialDate> specialDates, DateTime holiday, string description) {
             specialDates.Add(new FederalHoliday(holiday, description));
-            DateTime prevHoliday = holiday.AddDays(-1);
-            if (IsFriday(prevHoliday))
-                specialDates.Add(new FederalHoliday(prevHoliday, description));
-            DateTime nextHoliday = holiday.AddDays(1);
-            if (IsMonday(nextHoliday))
-                specialDates.Add(new FederalHoliday(nextHoliday, description));
         }
 
         static DateTime GetEasterSunday(int year) {
@@ -114,7 +108,7 @@ namespace CalendarExample {
 
             AddFederalHolidayTo(specialDates, new DateTime(year, 11, 11), "Veterans Day");
 
-            date = GetDayOfMonth(year, 10, DayOfWeek.Thursday, 4);
+            date = GetDayOfMonth(year, 11, DayOfWeek.Thursday, 4);
             specialDates.Add(new FederalHoliday(date, "Thanksgiving"));
 
             AddFederalHolidayTo(specialDates, new DateTime(year, 12, 25), "Christmas Day");
@@ -145,10 +139,10 @@ namespace CalendarExample {
             date = new DateTime(year, 10, 31);
             specialDates.Add(new Observance(date, "Halloween"));
 
-            date = GetDayOfMonth(year, 11, DayOfWeek.Tuesday, 1);
+            date = GetDayOfMonth(year, 11, DayOfWeek.Monday, 1).AddDays(1);
             specialDates.Add(new Observance(date, "Election Day"));
 
-            date = GetDayOfMonth(year, 10, DayOfWeek.Thursday, 4).AddDays(1);
+            date = GetDayOfMonth(year, 11, DayOfWeek.Thursday, 4).AddDays(1);
             specialDates.Add(new Observance(date, "Black Friday"));
 
             date = new DateTime(year, 12, 24);
