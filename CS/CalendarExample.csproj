@@ -39,8 +39,8 @@
 		<MauiFont Include="Resources\Fonts\*" />
 	</ItemGroup>
 	<ItemGroup>
-	  <PackageReference Include="DevExpress.Maui.Editors" Version="22.1.1-pre-*" />
-	  <PackageReference Include="DevExpress.Maui.Controls" Version="22.1.1-pre-*" />
-	  <PackageReference Include="DevExpress.Maui.CollectionView" Version="22.1.1-pre-*" />
+	  <PackageReference Include="DevExpress.Maui.Editors" Version="22.1.2-beta-22159" />
+	  <PackageReference Include="DevExpress.Maui.Controls" Version="22.1.2-beta-22159" />
+	  <PackageReference Include="DevExpress.Maui.CollectionView" Version="22.1.2-beta-22159" />
 	</ItemGroup>
 </Project>
