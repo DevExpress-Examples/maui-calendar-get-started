@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using DevExpress.Maui.Core.Themes;
 using DevExpress.Maui.Editors;
 using Microsoft.Maui.Controls;
@@ -29,18 +29,18 @@ namespace CalendarExample {
             if (specialDate == null)
                 return;
 
-            e.ViewInfo.FontAttributes = FontAttributes.Bold;
+            e.FontAttributes = FontAttributes.Bold;
             Color textColor;
             if (specialDate.IsHoliday) {
                 textColor = (Color)Resources["CalendarViewHolidayTextColor"];
-                e.ViewInfo.EllipseBackgroundColor = Color.FromRgba(textColor.Red, textColor.Green, textColor.Blue, 0.25);
-                e.ViewInfo.TextColor = textColor;
+                e.EllipseBackgroundColor = Color.FromRgba(textColor.Red, textColor.Green, textColor.Blue, 0.25);
+                e.TextColor = textColor;
 
                 return;
             }
             textColor = (Color)Resources["CalendarViewTextColor"];
-            e.ViewInfo.EllipseBackgroundColor = Color.FromRgba(textColor.Red, textColor.Green, textColor.Blue, 0.15);
-            e.ViewInfo.TextColor = textColor;
+            e.EllipseBackgroundColor = Color.FromRgba(textColor.Red, textColor.Green, textColor.Blue, 0.15);
+            e.TextColor = textColor;
         }
 
         protected override void OnSizeAllocated(double width, double height) {
@@ -49,4 +49,3 @@ namespace CalendarExample {
         }
     }
 }
-
