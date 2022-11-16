@@ -27,7 +27,7 @@
     </ContentPage.Resources>
     <ContentPage.Content>
         <StackLayout Orientation="{Binding Source={x:Reference Name=calendarView}, Path=Orientation}">
-            <dxe:DXCalendar DisplayDate="{Binding DisplayDate}" SelectedDate="{Binding SelectedDate}" ActiveViewType="{Binding ActiveViewType}" ShowTrailingDays="True" CustomDayCellStyle="CustomDayCellStyle"/>
+            <dxe:DXCalendar DisplayDate="{Binding DisplayDate}" SelectedDate="{Binding SelectedDate}" ActiveViewType="{Binding ActiveViewType}" ShowTrailingDays="True" CustomDayCellAppearance="CustomDayCellAppearance"/>
             <StackLayout Padding="{StaticResource ItemPadding}" IsVisible="{Binding IsHolidaysAndObservancesListVisible}" BackgroundColor="{StaticResource CalendarViewBackgroundColor}">
                 <Label Text="HOLIDAYS AND OBSERVANCES" TextColor="{StaticResource CalendarViewTextColor}" FontSize="{StaticResource ListItemTextSize}"/>
                 <BoxView Grid.Row="1" HeightRequest="1" BackgroundColor="{StaticResource CalendarViewSeparatorColor}" Margin="{StaticResource SeparatorMargin}"/>

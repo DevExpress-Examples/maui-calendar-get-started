@@ -19,7 +19,7 @@ Please register the [DevExpress NuGet Gallery](https://nuget.devexpress.com) in 
 
 The DevExpress Calendar for .NET MAUI allows your users to select a date. You can customize the appearance of days, months, years, and the calendar's header as your business needs dictate. For example, you can highlight holidays and observances. You can update fonts and colors, or completely change the data template used to render a specific visual element.
 
-![DevExpress Calendar for .NET MAUI](./img/dx-calendar.png)
+![DevExpress Calendar for .NET MAUI](./img/dx-calendar-example.png)
 
 To learn more about the calendar, see the following help topic: [DXCalendar](http://docs.devexpress.com/MAUI/DevExpress.Maui.Editors.DXCalendar).
 

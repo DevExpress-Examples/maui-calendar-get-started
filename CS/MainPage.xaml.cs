@@ -1,5 +1,4 @@
 using System;
-using DevExpress.Maui.Core.Themes;
 using DevExpress.Maui.Editors;
 using Microsoft.Maui.Controls;
 using Microsoft.Maui.Graphics;
@@ -18,7 +17,7 @@ namespace CalendarExample {
 
         ViewModel ViewModel { get; }
 
-        void CustomDayCellStyle(object sender, CustomSelectableCellStyleEventArgs e) {
+        void CustomDayCellAppearance(object sender, CustomSelectableCellAppearanceEventArgs e) {
             if (e.Date == DateTime.Today)
                 return;
 
