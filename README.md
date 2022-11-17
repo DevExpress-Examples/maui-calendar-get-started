@@ -45,8 +45,7 @@ To learn more about the calendar, see the following help topic: [DXCalendar](htt
 ## More Examples
 
 * [Stocks App](https://github.com/DevExpress-Examples/maui-stocks-mini)
-* [Pie Chart](https://github.com/DevExpress-Examples/maui-pie-chart-get-started)
-* [Scatter Chart](https://github.com/DevExpress-Examples/maui-scatter-chart-get-started)
+* [Charts](https://github.com/DevExpress-Examples/maui-charts)
 * [Data Form](https://github.com/DevExpress-Examples/maui-data-form-get-started)
 * [Tab View](https://github.com/DevExpress-Examples/maui-tab-view-get-started)
 * [Data Editors](https://github.com/DevExpress-Examples/maui-editors-get-started)
