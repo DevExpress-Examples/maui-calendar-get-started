@@ -1,5 +1,6 @@
 {
   "autoGenerateVb": false,
+  
   "runOnWeb": false,
   "commonSln": "./CS/CalendarExample.sln"
 }
