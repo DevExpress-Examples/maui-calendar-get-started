@@ -42,7 +42,7 @@ To learn more about the calendar, see the following help topic: [DXCalendar](htt
 - [Data Editors](https://docs.devexpress.com/MAUI/403427/editors/index)
 - [Collection View](https://docs.devexpress.com/MAUI/403324/collection-view/index)
 
-## More Examples()
+## More Examples
 
 * [Stocks App](https://github.com/DevExpress-Examples/maui-stocks-mini)
 * [Charts](https://github.com/DevExpress-Examples/maui-charts)
