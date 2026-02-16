@@ -52,7 +52,7 @@ To learn more about the calendar, see the following help topic: [DXCalendar](htt
 * [Data Editors](https://github.com/DevExpress-Examples/maui-editors-get-started)
 * [Collection View](https://github.com/DevExpress-Examples/maui-collection-view-get-started)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=maui-calendar-get-started&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=maui-calendar-get-started&~~~was_helpful=no)
 
