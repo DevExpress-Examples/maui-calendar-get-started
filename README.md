@@ -14,7 +14,7 @@ You need a [DevExpress .NET MAUI Subscription](https://www.devexpress.com/maui/)
 
 ## Requirements
 
-Please register the [DevExpress NuGet Gallery](https://nuget.devexpress.com) in Visual Studio to restore the NuGet packages used in this solution. See the following topic for more information: [Get Started with DevExpress Mobile UI for .NET MAUI](https://docs.devexpress.com/MAUI/403249/get-started).
+See the following topic for more information: [Get Started with DevExpress Mobile UI for .NET MAUI](https://docs.devexpress.com/MAUI/403249/get-started).
 
 ## What's in This Repository
 
